@@ -6,7 +6,7 @@ json.job do
   json.job_title                @job.job_title
   json.job_description          @job.job_description
   json.year_of_experience       @job.year_of_experience
-  json.education_requirement    @job.education_requirement
+  json.education                @job.education
   json.industry                 @job.industry
   json.base_salary              @job.base_salary
   json.employment_type_id       @job.employment_type_id
