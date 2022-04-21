@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # root "articles#index"
 
-  POST 'jobs' => 'jobs#create'
-  GET 'jobs/:id' => 'jobs#find_job'
-  GET 'jobs' => 'jobs#index'
+  post 'jobs' => 'jobs#create'
+  get 'jobs/:id' => 'jobs#find'
+  get 'jobs' => 'jobs#index'
 end
